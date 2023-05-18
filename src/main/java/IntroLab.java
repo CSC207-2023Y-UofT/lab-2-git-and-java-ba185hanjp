@@ -41,6 +41,11 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String medina15() {
+        String message = printLabMessage("Hello", "JP", true, "Hi everyone");
+        return message;
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -60,6 +65,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
+        System.out.println(medina15());
 
     }
 
