@@ -30,4 +30,10 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test
+    public void testPatlatii() {
+        String expectedResult = "Hi! My name is Adelina! I like cats more than dogs! Cats are necessary!";
+        String actualResult = IntroLab.patlatii();
+        assertEquals(expectedResult, actualResult);
+    }
 }
