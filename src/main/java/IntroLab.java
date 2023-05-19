@@ -41,6 +41,14 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String renhe9() {
+        String greeting = "Hello";
+        String name = "Henry";
+        boolean cats = true;
+        String message = "How are you? I am under the water.";
+        return printLabMessage(greeting, name, cats, message);
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
